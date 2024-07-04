@@ -9,8 +9,8 @@ export default function Values() {
   return (
     <section id="values-section" className="py-32 px-12 bg-broken-white flex gap-16 xl:gap-44 justify-between">
       <div id="title" className="flex flex-col gap-10">
-        <h3 className="font-jakarta-semi-bold text-5xl w-[453px]">All The Core Values We Stand for</h3>
-        <p className="font-jakarta-regular text-lg text-navy/60 w-[399px]">We are guided by these principles in everything we do to serve you the best services and get the best result at its goals.</p>
+        <h3 className="font-jakarta-semi-bold text-5xl max-w-[453px]">All The Core Values We Stand for</h3>
+        <p className="font-jakarta-regular text-lg text-navy/60 max-w-[399px]">We are guided by these principles in everything we do to serve you the best services and get the best result at its goals.</p>
       </div>
       <div className="grid grid-cols-[repeat(3,11rem)] gap-10 xl:gap-14">
         <div className="grid gap-8">

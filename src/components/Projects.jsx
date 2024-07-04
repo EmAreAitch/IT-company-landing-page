@@ -1,7 +1,7 @@
 export default function Projects() {
     return (
         <section id="projects-section" className="py-32 px-12 bg-white flex justify-between text-navy">
-            <div className="grid place-content-between place-items-start w-64">
+            <div className="grid place-content-between place-items-start max-w-64">
                 <div className="grid gap-8">
                     <h3 className="font-jakarta-semi-bold text-5xl">See Our Successful Projects</h3>
                     <p className="font-jakarta-regular text-lg text-navy/60">Explore Our Success Stories</p>

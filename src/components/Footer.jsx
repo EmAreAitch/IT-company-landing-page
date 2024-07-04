@@ -1,8 +1,8 @@
 const Footer = () => {
     return (
-        <footer id='footer' className='py-24 px-12 bg-[#c4c4c4] text-white flex justify-between'>
+        <footer id='footer' className='py-24 px-12 bg-[#c4c4c4] text-white flex justify-between gap-6'>
 
-            <div id='subscription' className='space-y-14 w-[26rem]'>
+            <div id='subscription' className='space-y-14 max-w-[26rem]'>
 
                 <div id="title" className='space-y-10'>
                     <h3 className="font-jakarta-semi-bold text-5xl">Stay Informed with Our Updates and Newsletter</h3>

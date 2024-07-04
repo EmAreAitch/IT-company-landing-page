@@ -40,8 +40,8 @@ export default function Hero() {
             </nav>
             <div id="content" className="flex justify-between items-end">
                 <div id='title' className="flex flex-col gap-12">
-                    <h1 className="font-jakarta-bold text-[80px] leading-[92px] w-[669px]">Innovating IT, Empowering <br />The Technology</h1>
-                    <p className="font-jakarta-regular text-lg w-[511px]">Your Trusted and Experienced Partner for Driving Continuous Advancement and Innovation in Information Technology Solutions and Services.</p>
+                    <h1 className="font-jakarta-bold text-[80px] leading-[92px] max-w-[669px]">Innovating IT, Empowering <br />The Technology</h1>
+                    <p className="font-jakarta-regular text-lg max-w-[511px]">Your Trusted and Experienced Partner for Driving Continuous Advancement and Innovation in Information Technology Solutions and Services.</p>
                     <div className="flex items-center gap-6">
                         <button className="rounded-full bg-darker-green py-4 px-10 font-jakarta-bold text-lg">Get in Touch</button>
                         <button className="flex gap-4 items-center">
