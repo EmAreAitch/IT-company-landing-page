@@ -11,12 +11,14 @@ export default function App() {
   return (
     <>
       <Hero />
-      <Partners />
-      <Services />
-      <Values />
-      <Projects />
-      <Testimonials />
-      <CTA />
+      <main>
+        <Partners />
+        <Services />
+        <Values />
+        <Projects />
+        <Testimonials />
+        <CTA />
+      </main>
       <Footer />
     </>
   )

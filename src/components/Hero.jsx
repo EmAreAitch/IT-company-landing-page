@@ -4,8 +4,9 @@ import Shape2 from '../assets/images/3DShapes1.png'
 export default function Hero() {
     const linearGrad = 'linear-gradient(95.7deg, rgba(23, 39, 64, 0.05) 6.43%, rgba(44, 189, 255, 0.28) 55.1%, rgba(94, 244, 178, 0.18) 85.19%)'
     return (
-        <section id='hero' className="pt-10 pb-32 px-12 bg-[#d6d6d6] text-white space-y-12">
-            <div id='navigation' className="flex justify-between">
+        <header id='hero' className="pt-10 pb-32 px-12 bg-[#d6d6d6] text-white space-y-12">
+            
+            <nav id='navigation' className="flex justify-between">
                 <div className="font-jakarta-bold text-3xl">
                     ProTech
                 </div>
@@ -36,7 +37,7 @@ export default function Hero() {
                         </li>
                     </ul>
                 </div>
-            </div>
+            </nav>
             <div id="content" className="flex justify-between items-end">
                 <div id='title' className="flex flex-col gap-12">
                     <h1 className="font-jakarta-bold text-[80px] leading-[92px] w-[669px]">Innovating IT, Empowering <br />The Technology</h1>
@@ -53,7 +54,7 @@ export default function Hero() {
                 </div>
                 <div id='frame' className="flex flex-col items-end gap-8">
                     <div id='numbers' className="rounded-[20px] border border-[rgba(255,255,255,0.25)] space-y-6 py-12 px-14" style={{
-                        background: 'linear-gradient(95.7deg, rgba(23, 39, 64, 0.05) 6.43%, rgba(44, 189, 255, 0.28) 55.1%, rgba(94, 244, 178, 0.18) 85.19%)',
+                        background: linearGrad,
                     }}>
                         <h3 className="font-jakarta-semi-bold text-5xl">300+</h3>
                         <p className="font-jakarta-semi-bold text-base w-28">Certified IT Professionals</p>
@@ -62,7 +63,7 @@ export default function Hero() {
                     <div className="flex gap-8">
                         <div className="flex justify-between w-64 relative h-fit">
                             <div className="absolute bottom-0 w-[250px] h-[132px] rounded-[20px] border border-[rgba(255,255,255,0.25)]" style={{
-                                background: 'linear-gradient(95.7deg, rgba(23, 39, 64, 0.05) 6.43%, rgba(44, 189, 255, 0.28) 55.1%, rgba(94, 244, 178, 0.18) 85.19%)',
+                                background: linearGrad,
                             }}>
                             </div>
                             <div className="z-10">
@@ -79,7 +80,7 @@ export default function Hero() {
                         </div>
                         <div className="flex justify-between w-64 relative h-fit">
                             <div className="absolute bottom-0 w-[250px] h-[132px] rounded-[20px] border border-[rgba(255,255,255,0.25)]" style={{
-                                background: 'linear-gradient(95.7deg, rgba(23, 39, 64, 0.05) 6.43%, rgba(44, 189, 255, 0.28) 55.1%, rgba(94, 244, 178, 0.18) 85.19%)',
+                                background: linearGrad,
                             }}>
                             </div>
                             <div className="z-10">
@@ -97,6 +98,6 @@ export default function Hero() {
                     </div>
                 </div>
             </div>
-        </section>
+        </header>
     )
 }

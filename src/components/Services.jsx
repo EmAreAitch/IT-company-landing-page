@@ -23,9 +23,7 @@ export default function Services() {
                         <p className="font-jakarta-semi-bold text-base w-28 text-center">Managed IT Services</p>
                     </div>
 
-                    <div className="w-[28rem] h-56 col-span-2 bg-gray-600 rounded-2xl">
-
-                    </div>
+                    <div className="w-[28rem] h-56 col-span-2 bg-gray-600 rounded-2xl" />                    
 
                     <div className="size-56  grid place-content-center place-items-center gap-6">
                         <img src={icon2} alt="" />
